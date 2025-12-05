@@ -5,17 +5,18 @@ class ScoreBoard {
     String gamename = "fortnite";
     int playerxp = 0;
     int playerlevel = 0;
+    int playerhealth = 0;
 
     void gainxp(int amount) {
         playerxp+=amount;
     }
 
     void heal() {
-        playerxp+=50;
+        playerhealth+=50;
     }
 
     void damage() {
-        playerxp-=10;
+        playerhealth-=10;
     }
 
     void levelup() {
@@ -29,14 +30,12 @@ class ScoreBoard {
     void attacked() {
         playerxp-=400;
     }
-
-    void dmg() {
-        playerlevel++;
     }
 
     void name() {
         System.out.println(gamename);
     }
+
 }
 
 
@@ -58,3 +57,5 @@ public class Math2 {
         
     }
 }
+System.out.println("Player 1 Health: " + p1.playerhealth);
+System.out.println("Player 2 Health: " + p2.playerhealth);
