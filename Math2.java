@@ -2,7 +2,7 @@
 
 
 class ScoreBoard {
-    String gamename = "gacha life fortnite";
+    String gamename = "fortnite";
     int playerxp = 0;
     int playerlevel = 0;
 
