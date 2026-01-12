@@ -1,3 +1,4 @@
+package fundamentals;
 //java is a strongly typed language.
 
 class DataTypesExamples {

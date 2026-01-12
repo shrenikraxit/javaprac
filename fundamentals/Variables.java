@@ -1,3 +1,4 @@
+package fundamentals;
 //variables are either static or instance
 //they use camelCase
 //allcaps are for constants

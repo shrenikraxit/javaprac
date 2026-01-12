@@ -1,3 +1,4 @@
+package fundamentals;
 class calc {
 
     //write functions for addition subtractions multiplication and division

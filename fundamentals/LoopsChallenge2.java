@@ -1,3 +1,4 @@
+package fundamentals;
 public class LoopsChallenge2 {
     public static void main(String[] args) {
         
